@@ -124,9 +124,10 @@ public class MainActivity extends ActionBarActivity {
         quantity = quantity - 1;
         display(quantity);
     }
-
+/*
     private void displayPrice(int number){
         TextView totallyTextView = (TextView) findViewById(R.id.totally_text_view);
         totallyTextView.setText(NumberFormat.getCurrencyInstance().format(number));
     }
+    */
 }
